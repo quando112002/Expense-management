@@ -1,0 +1,112 @@
+/* Register.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.backgroung-img {
+  width: 100%;
+  height: 100%;
+  background: url("https://static.vecteezy.com/system/resources/previews/016/771/351/non_2x/blue-background-design-free-vector.jpg");
+  background-size: cover;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease-in-out;
+  margin: auto ;
+}
+
+.register-form:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.register-title {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.register-input,
+.register-select,
+.register-button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.register-button {
+  width:30%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.register-input:focus,
+.register-select:focus,
+.register-button:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.3);
+}
+
+.register-button {
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.register-error {
+  margin-top: -10px;
+  margin-bottom: 15px;
+  color: red;
+  font-size: 14px;
+  text-align: center;
+}
+.block-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.block-button-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin:  0;
+  height: 50px;
+}
+.block-button-item p{
+    margin: 0 5px;
+    font-size: 13px;
+}
+.block-button-item-link{
+  font-size: 14px;
+}

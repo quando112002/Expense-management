@@ -1,0 +1,85 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Darker background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's on top */
+}
+.form-title{
+  background-color: #5f9ef5;
+  text-align: center;
+  padding: 0px;
+  margin: 10px 10px 15px 0;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.form-title h2{
+  margin: 0;
+  margin-bottom: 20px;
+}
+.form-container {
+  background: white;
+  padding: 20px 14px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+
+.form-input {
+  width: calc(100% - 30px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.form-input:focus{
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.3);
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+.form-button[type="button"] {
+  background-color: #f44336;
+  color: white;
+  margin-right: 10px;
+}
+.input-error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+

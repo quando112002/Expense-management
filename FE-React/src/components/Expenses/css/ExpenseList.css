@@ -1,0 +1,86 @@
+.expense-list-heading{
+  background-color: #31445e;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFFFFF;
+
+}
+.form-title{
+  background-color: #2b7ae8;
+  text-align: center;
+  padding: 0px;
+  margin: 10px 10px 0 0;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.form-title h2{
+  margin: 0;
+} 
+.expense-list {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Arial", sans-serif;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-table th {
+  background: linear-gradient(135deg, #4a90e2, #357ABD);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.expense-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; 
+}
+
+.expense-table tbody tr:nth-child(even) {
+  background-color: #eef3f8; 
+}
+
+.expense-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.expense-table td {
+  font-size: 16px;
+  color: #242424;
+}
+
+.no-expenses {
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.page-number {
+  margin: 0 10px;
+}
+

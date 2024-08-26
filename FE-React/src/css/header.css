@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #fff;
+}
+
+.search-bar svg {
+  margin-right: 10px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 250px;
+  height: 20px;
+}
+
+
+
+.user-info span {
+  margin-right: 10px;
+}
+
+.user-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.user-info img {
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.dropdown-menu {
+  display: none; /* Hide the dropdown menu by default */
+  position: absolute;
+  top: 100%;
+  left: 1;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+
+}
+
+.user-info:hover .dropdown-menu {
+  display: block; /* Show the dropdown menu when hovering over .user-info */
+}
+
+.dropdown-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 8px 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f1f1f1;
+}
+.button-logout{
+  text-transform: lowercase;
+}
+
