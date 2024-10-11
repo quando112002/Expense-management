@@ -1,2 +1,2 @@
 Run BE: nodemon index.js
-Run FE: npm rin dev
+Run FE: npm run dev
